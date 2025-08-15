@@ -1,12 +1,13 @@
 # Project Background
 Gamezone, founded in 2018, is a company that sells new and refurbished gaming products all around the world primarily through their online website. They also have a mobile app and use a variety of marketing channels.
 
+The company has significant data on its sales that has been previously underutilized. This project analyzes and synthesizes this data in order to uncover critical insights that will improve Gamezone commercial success.
+
 Insights and recommendations are provided on the following key areas:
 
-- **Category 1:** 
-- **Category 2:** 
-- **Category 3:** 
-- **Category 4:** 
+- **Sales Trends Analysis:** Evaluation of historical sales patterns, both globally and by region, focusing on Revenue, Order Volume and Average Order Value (AOV).
+- **Product Level Performance:** An analysis of Gamezone various product lines, understanding their impact on sales and returns.
+- **Regional Comparisons:** An evaluation of sales and orders by region.
 
 The SQL queries used to inspect and clean the data for this analysis can be found here [link].
 
