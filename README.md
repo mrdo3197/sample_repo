@@ -19,7 +19,7 @@ An interactive Tableau dashboard used to report and explore sales trends can be 
 
 # Data Structure & Initial Checks
 
-The company main database structure, as seen below, consists of one table: gamezone_orders_data, with a total row count of 21864 records. This dataset represents order data, where each record shows a unique order. The most important columns are the usd_price, product_name, purchase_ts and ship_ts columns. There is also supplementary information about platform used to make the order and geographical data such as country. The data spans over a period ranging from 2019 to 2021.
+The company’s main database structure, shown below, consists of a single table: gamezone_orders_data, containing a total of 21,864 records. This dataset represents order information, with each record corresponding to a unique order. The most important columns are usd_price, product_name, purchase_ts, and ship_ts. Additional information includes the platform used to place the order and geographical details such as the customer’s country. The data covers a period from 2019 to 2021.
 
 <img width="282" height="255" alt="Data_structure" src="https://github.com/user-attachments/assets/c71d01fb-aa8e-4336-8d36-9d82e8355712" />
 
