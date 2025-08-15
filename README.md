@@ -1,7 +1,7 @@
 # Project Background
-Gamezone, founded in 2018, is a company that sells new and refurbished gaming products all around the world primarily through their online website. They also have a mobile app and use a variety of marketing channels.
+**Gamezone**, founded in 2018, is a company that sells new and refurbished gaming products worldwide, primarily through its online store. It also has a mobile app and leverages a variety of marketing channels.
 
-The company has significant data on its sales that has been previously underutilized. This project analyzes and synthesizes this data in order to uncover critical insights that will improve Gamezone commercial success.
+The company possesses a wealth of sales data that has previously been underutilized. This project analyzes and synthesizes that data to uncover critical insights aimed at enhancing Gamezone’s commercial success.
 
 Insights and recommendations are provided on the following key areas:
 
