@@ -21,7 +21,8 @@ An interactive Tableau dashboard used to report and explore sales trends can be 
 
 The companies main database structure as seen below consists of one table: gamezone_orders_data, with a total row count of X records. A description of the table is as follows:
 - **Table 1:**
-- 
+
+<img width="282" height="255" alt="Data_structure" src="https://github.com/user-attachments/assets/c71d01fb-aa8e-4336-8d36-9d82e8355712" />
 
 [Entity Relationship Diagram here]
 
