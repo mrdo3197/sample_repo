@@ -23,7 +23,7 @@ The company’s main database structure, shown below, consists of a single table
 
 <img width="282" height="255" alt="Data_structure" src="https://github.com/user-attachments/assets/c71d01fb-aa8e-4336-8d36-9d82e8355712" />
 
-Prior to beginning the analysis, a variety of checks were conducted for quality control and familiarization with the dataset. The SQL queries utilized to inspect and perform quality checks can be found here.
+Before starting the analysis, a series of checks were performed to ensure data quality and to become familiar with the dataset. The SQL queries used for inspection and quality control can be found here.
 
 # Executive Summary
 
