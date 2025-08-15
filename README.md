@@ -1,10 +1,5 @@
-Welcome to the sample GitHub ReadME! Use this template as an outline for your data analytics projects. Include one ReadME per repository, with each repository storing one project. Remember, it's better to have quality over quantity - having 2 stellar business-relevant projects stands out much more than 3+ mediocre projects. Feel free to make a copy of this or fork this repository and make it your own. Happy portfolio-ing :) 
-
-
-
-
 # Project Background
-Backround about the company, including the industry, active years, business model, and key business metrics. Explain this from the POV of a data analyst who is working at the company.
+Gamezone, founded in 2018, is a company that sells new and refurbished gaming products all around the world primarily through their online website. They also have a mobile app and use a variety of marketing channels.
 
 Insights and recommendations are provided on the following key areas:
 
