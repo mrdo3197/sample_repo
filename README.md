@@ -6,6 +6,7 @@
 Despite possessing extensive sales data, this information has historically been underutilized. This project conducts a comprehensive analysis of that data to uncover actionable insights aimed at enhancing Gamezone’s commercial strategy and operational efficiency.
 
 The primary objective of this analysis is to identify key revenue drivers and evaluate the effectiveness of marketing efforts. The findings will support strategic decision-making to optimize marketing spend, improve platform performance, and maximize product profitability.
+
 Insights and recommendations are provided across the following key business areas:
 
 - **Sales Performance and Trends:** Historical and seasonal analysis of revenue, order volume, and Average Order Value (AOV) from 2019 to 2021.
@@ -23,11 +24,24 @@ An interactive Tableau dashboard used to report and explore sales trends can be 
 
 # Data Structure & Initial Checks
 
-The company’s main database structure, shown below, consists of a single table: gamezone_orders_data, containing a total of 21,864 records. This dataset represents order information, with each record corresponding to a unique order. The most important columns are usd_price, product_name, purchase_ts, and ship_ts. Additional information includes the platform used to place the order and geographical details such as the customer’s country. The data covers a period from 2019 to 2021.
+Gamezone's order data is housed in a single table, gamezone_orders_data, which serves as the central fact table for sales transactions. The dataset contains 21,864 records, with each record representing a unique line item on a customer order.
+
+The core measures driving business analysis are:
+
+- usd_price: The monetary value of each transaction.
+- purchase_ts and ship_ts: Timestamps used to calculate sales trends and operational efficiency metrics like fulfillment_time_days.
+
+The key dimensions for segmenting and analyzing these metrics include:
+- product_name and product_id: For product performance analysis.
+- purchase_platform: To distinguish user behavior between the Mobile App and Online Store.
+- marketing_channel: For attributing revenue and evaluating channel effectiveness.
+- country_code: For geographical sales analysis.
 
 <img width="282" height="255" alt="Data_structure" src="https://github.com/user-attachments/assets/c71d01fb-aa8e-4336-8d36-9d82e8355712" />
 
-Before starting the analysis, a series of checks were performed to ensure data quality and to become familiar with the dataset. The SQL queries used for inspection and quality control can be found here.
+The data spans from 2019 to 2021, enabling a comprehensive review of annual and seasonal trends.
+
+Prior to analysis, the dataset underwent a rigorous validation and cleaning process to address inconsistencies in date formats, categorical values, and missing data, ensuring the reliability of all subsequent insights. The SQL queries used for inspection and quality control can be found here.
 
 # Executive Summary
 
