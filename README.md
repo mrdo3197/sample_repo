@@ -24,7 +24,7 @@ An interactive Tableau dashboard used to report and explore sales trends can be 
 
 # Data Structure & Initial Checks
 
-Gamezone's order data is housed in a single table, gamezone_orders_data containing 21,864 records, with each record representing a unique line item on a customer order.
+Gamezone's order data is housed in a single table, ```gamezone_orders_data``` containing 21,864 records, with each record representing a unique line item on a customer order.
 
 The core measures driving business analysis are:
 
