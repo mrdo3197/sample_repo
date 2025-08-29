@@ -37,7 +37,8 @@ The key dimensions for segmenting and analyzing these metrics include:
 - ```marketing_channel```: For attributing revenue and evaluating channel effectiveness.
 - ```country_code```: For geographical sales analysis.
 
-| gamezone_orders_data |
+```gamezone_orders_data```
+| Column Name | Data Type |
 | ----: | :---|
 | user_id | String |
 | order_id | String |
