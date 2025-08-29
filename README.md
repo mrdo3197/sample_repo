@@ -28,14 +28,14 @@ Gamezone's order data is housed in a single table, ```gamezone_orders_data``` co
 
 The core measures driving business analysis are:
 
-- usd_price: The monetary value of each transaction.
-- purchase_ts and ship_ts: Timestamps used to calculate sales trends and operational efficiency metrics like fulfillment_time_days.
+- ```usd_price```: The monetary value of each transaction.
+- ```purchase_ts``` and ship_ts: Timestamps used to calculate sales trends and operational efficiency metrics like fulfillment_time_days.
 
 The key dimensions for segmenting and analyzing these metrics include:
-- product_name and product_id: For product performance analysis.
-- purchase_platform: To distinguish user behavior between the Mobile App and Online Store.
-- marketing_channel: For attributing revenue and evaluating channel effectiveness.
-- country_code: For geographical sales analysis.
+- ```product_name``` and ```product_id```: For product performance analysis.
+- ```purchase_platform```: To distinguish user behavior between the Mobile App and Online Store.
+- ```marketing_channel```: For attributing revenue and evaluating channel effectiveness.
+- ```country_code```: For geographical sales analysis.
 
 <img width="282" height="255" alt="Data_structure" src="https://github.com/user-attachments/assets/c71d01fb-aa8e-4336-8d36-9d82e8355712" />
 
