@@ -29,7 +29,7 @@ Gamezone's order data is housed in a single table, ```gamezone_orders_data``` co
 The core measures driving business analysis are:
 
 - ```usd_price```: The monetary value of each transaction.
-- ```purchase_ts``` and ship_ts: Timestamps used to calculate sales trends and operational efficiency metrics like fulfillment_time_days.
+- ```purchase_ts``` and ```ship_ts```: Timestamps used to calculate sales trends and operational efficiency metrics.
 
 The key dimensions for segmenting and analyzing these metrics include:
 - ```product_name``` and ```product_id```: For product performance analysis.
