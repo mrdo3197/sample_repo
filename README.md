@@ -1,13 +1,17 @@
+# Analyzing Gamezone's Revenue Drivers and Marketing Efficiency
+
 # Project Background
-**Gamezone**, founded in 2018, is a company that sells new and refurbished gaming products worldwide, primarily through its online store. It also has a mobile app and leverages a variety of marketing channels.
+**Gamezone**, founded in 2018, is a global retailer of new and refurbished gaming products, operating primarily through its online store and mobile app. The company leverages a variety of marketing channels to drive customer acquisition and sales.
 
-The company possesses a wealth of sales data that has previously been underutilized. This project analyzes and synthesizes that data to uncover critical insights aimed at enhancing Gamezone’s commercial success.
+Despite possessing extensive sales data, this information has historically been underutilized. This project conducts a comprehensive analysis of that data to uncover actionable insights aimed at enhancing Gamezone’s commercial strategy and operational efficiency.
 
-Insights and recommendations are provided on the following key areas:
+The primary objective of this analysis is to identify key revenue drivers and evaluate the effectiveness of marketing efforts. The findings will support strategic decision-making to optimize marketing spend, improve platform performance, and maximize product profitability.
+Insights and recommendations are provided across the following key business areas:
 
-- **Sales Trends Analysis:** Evaluation of historical sales patterns, both globally and by region, focusing on Revenue, Order Volume and Average Order Value (AOV).
-- **Product Level Performance:** An analysis of Gamezone various product lines, understanding their impact on sales and returns.
-- **Regional Comparisons:** An evaluation of sales and orders by region.
+- **Sales Performance and Trends:** Historical and seasonal analysis of revenue, order volume, and Average Order Value (AOV) from 2019 to 2021.
+- **Marketing Channel Effectiveness:** Evaluation of revenue contribution and customer value by marketing channel to guide budget allocation.
+- **Platform Comparison:** Assessment of sales performance and customer behavior across the Mobile App and Online Store.
+- **Product Analysis:** Identification of top-performing and underperforming products, including analysis of new versus refurbished sales mix.
 
 The SQL queries used to inspect and clean the data for this analysis can be found here [link].
 
