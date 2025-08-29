@@ -1,4 +1,4 @@
-<img width="226" height="27" alt="imagen" src="https://github.com/user-attachments/assets/c6f7bbd6-fadf-4cc2-8dd2-643f2edf908a" /># Analyzing Gamezone's Revenue Drivers and Marketing Efficiency
+# Analyzing Gamezone's Revenue Drivers and Marketing Efficiency
 
 # Project Background
 **Gamezone**, founded in 2018, is a global retailer of new and refurbished gaming products, operating primarily through its online store and mobile app. The company leverages a variety of marketing channels to drive customer acquisition and sales.
@@ -51,8 +51,6 @@ The key dimensions for segmenting and analyzing these metrics include:
 | marketing_channel | String |
 | account_creation_method | String |
 | country_code | String |
-
-<img width="282" height="255" alt="Data_structure" src="https://github.com/user-attachments/assets/c71d01fb-aa8e-4336-8d36-9d82e8355712" />
 
 The data spans from 2019 to 2021, enabling a comprehensive review of annual and seasonal trends.
 
