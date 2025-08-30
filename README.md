@@ -26,12 +26,13 @@ An interactive Tableau dashboard used to report and explore sales trends can be 
 
 Gamezone's order data is housed in a single table, ```gamezone_orders_data``` containing 21,864 records, with each record representing a unique line item on a customer order.
 
-The core measures driving business analysis are:
+The core metrics driving business analysis are:
 
 - ```usd_price```: The monetary value of each transaction.
 - ```purchase_ts``` and ```ship_ts```: Timestamps used to calculate sales trends and operational efficiency metrics.
 
 The key dimensions for segmenting and analyzing these metrics include:
+
 - ```product_name``` and ```product_id```: For product performance analysis.
 - ```purchase_platform```: To distinguish user behavior between the Mobile App and Online Store.
 - ```marketing_channel```: For attributing revenue and evaluating channel effectiveness.
