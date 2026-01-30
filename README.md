@@ -1,18 +1,14 @@
 # Analyzing Gamezone's Revenue Drivers and Marketing Efficiency
 
 # Project Background
-**Gamezone**, founded in 2018, is a global retailer of new and refurbished gaming products, operating primarily through its online store and mobile app. The company leverages a variety of marketing channels to drive customer acquisition and sales.
+**Gamezone**, fundada en 2018, es una empresa global de comercio electrónico especializada en la venta de productos de videojuegos nuevos y reacondicionados. Opera principalmente a través de su sitio web y aplicación móvil, atendiendo a clientes en múltiples regiones del mundo. El modelo de negocio se centra en la venta directa al consumidor, con un enfoque en productos populares de gaming como consolas, accesorios y equipos especializados.
 
-Despite possessing extensive sales data, this information has historically been underutilized. This project conducts a comprehensive analysis of that data to uncover actionable insights aimed at enhancing Gamezone’s commercial strategy and operational efficiency.
+Como analista de datos interno en Gamezone, se me ha asignado la tarea de analizar el rendimiento de productos e inventario para apoyar las decisiones estratégicas del equipo de Producto y Operaciones. Los objetivos clave del negocio incluyen:
 
-The primary objective of this analysis is to identify key revenue drivers and evaluate the effectiveness of marketing efforts. The findings will support strategic decision-making to optimize marketing spend, improve platform performance, and maximize product profitability.
-
-Insights and recommendations are provided across the following key business areas:
-
-- **Sales Performance and Trends:** Historical and seasonal analysis of revenue, order volume, and Average Order Value (AOV) from 2019 to 2021.
-- **Marketing Channel Effectiveness:** Evaluation of revenue contribution and customer value by marketing channel to guide budget allocation.
-- **Platform Comparison:** Assessment of sales performance and customer behavior across the Mobile App and Online Store.
-- **Product Analysis:** Identification of top-performing and underperforming products, including analysis of new versus refurbished sales mix.
+- **Optimización de inventario:** Identificar qué productos generan la mayor parte de los ingresos para priorizar el stock
+- **Estrategia de precios:** Comprender el valor promedio por pedido por producto
+- **Expansión geográfica:** Identificar regiones con mayor potencial para productos específicos
+- **Eficiencia operativa:** Analizar patrones temporales para planificar compras y logística
 
 The SQL queries used to inspect and clean the data for this analysis can be found here [link].
 
