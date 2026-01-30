@@ -1,6 +1,6 @@
-# Analyzing Gamezone's Revenue Drivers and Marketing Efficiency
+# Análisis de Producto e Inventario para Gamezone: Identificando Oportunidades de Optimización del Stock (2019-2023)
 
-# Project Background
+# Contexto del Proyecto
 **Gamezone**, fundada en 2018, es una empresa global de comercio electrónico especializada en la venta de productos de videojuegos nuevos y reacondicionados. Opera principalmente a través de su sitio web y aplicación móvil, atendiendo a clientes en múltiples regiones del mundo. El modelo de negocio se centra en la venta directa al consumidor, con un enfoque en productos populares de gaming como consolas, accesorios y equipos especializados.
 
 Como analista de datos interno en Gamezone, se me ha asignado la tarea de analizar el rendimiento de productos e inventario para apoyar las decisiones estratégicas del equipo de Producto y Operaciones. Los objetivos clave del negocio incluyen:
@@ -18,40 +18,27 @@ Un dashboard interactivo de Tableau utilizado para reportar y explorar tendencia
 
 
 
-# Data Structure & Initial Checks
+# Estructura de Datos y Chequeos Iniciales
 
-Gamezone's order data is housed in a single table, ```gamezone_orders_data``` containing 21,864 records, with each record representing a unique line item on a customer order.
+Los datos de pedidos de Gamezone están alojados en una sola tabla que contiene 21,864 registros, donde cada registro representa un ítem único en el pedido de un cliente. Esta estructura es ideal para analizar el rendimiento de productos desde múltiples dimensiones.
 
-The core metrics driving business analysis are:
+Métricas Principales:
 
-- ```usd_price```: The monetary value of each transaction.
-- ```purchase_ts``` and ```ship_ts```: Timestamps used to calculate sales trends and operational efficiency metrics.
+- ```usd_price```: Valor monetario de cada transacción
 
-The key dimensions for segmenting and analyzing these metrics include:
+- ```purchase_ts```: Marca de tiempo de compra
 
-- ```product_name``` and ```product_id```: For product performance analysis.
-- ```purchase_platform```: To distinguish user behavior between the Mobile App and Online Store.
-- ```marketing_channel```: For attributing revenue and evaluating channel effectiveness.
-- ```country_code```: For geographical sales analysis.
+- ```ship_ts```: Marca de tiempo de envío
 
-```gamezone_orders_data```
-| Column Name | Data Type |
-| ----: | :---|
-| user_id | String |
-| order_id | String |
-| purchase_ts | Date |
-| ship_ts | Date |
-| product_name | String |
-| product_id | String |
-| usd_price | Float |
-| purchase_platform | String |
-| marketing_channel | String |
-| account_creation_method | String |
-| country_code | String |
+Dimensiones Clave para Segmentación:
 
-The data spans from 2019 to 2021, enabling a comprehensive review of annual and seasonal trends.
+- ```product_name``` y ```product_id```: Para análisis de rendimiento de productos
 
-Prior to analysis, the dataset underwent a rigorous validation and cleaning process to address inconsistencies in date formats, categorical values, and missing data, ensuring the reliability of all subsequent insights. The SQL queries used for inspection and quality control can be found here.
+- ```country_code```: Para análisis geográfico de ventas por producto
+
+- ```purchase_platform```: Para entender el comportamiento de compra por dispositivo
+
+- ```marketing_channel```: Para atribución de ventas (secundario para inventario)
 
 # Executive Summary
 
